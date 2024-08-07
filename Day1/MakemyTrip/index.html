@@ -8,7 +8,7 @@
         .sts{
             display: inline;
         }
-        
+
         .sts button{
             height: 3em;
         }
@@ -18,43 +18,67 @@
         .options{
             display: inline;
         }
+        #IMG{
+            display: flex;
+            align-items: center;
+        }
+        #heading{
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+        }
+        #topt{
+            display: flex;
+            justify-content: space-between;
+            width: 60%
+        }
     </style>
 </head>
 <body>
-    <img src="./mmt_dt_top_icon.avif" alt="makeMytrip">
-    <div class="sts">
-        <button>
-            <i class="fa-solid fa-house"></i>
-            <b>List Your Property</b> <br>
-            Start earning today!
-        </button>
+    <div id="heading">
+        <div id="IMG">
+            <h2 style="display: inline;">Make</h2>
+            <img src="./mmt_dt_top_icon.avif" alt="makeMytrip">
+            <h2 style="display: inline;">Trip</h2>
+        </div>
+        <div id="topt">
+            <div class="sts">
+                <button>
+                    <i class="fa-solid fa-house"></i>
+                    <b>List Your Property</b> <br>
+                    Start earning today!
+                </button>
+            </div>
+            <div class="sts">
+                <button>
+                    <i class="fa-solid fa-bag-shopping"></i>
+                    <b>Introducing myBiz</b> <br>
+                    Business Travel Solution
+                </button>
+            </div>
+            <div class="sts">
+                <button>
+                    <i class="fa-solid fa-person-walking-luggage"></i>
+                    <b>My Trips</b> <br>
+                    Manage Your Bookings
+                </button>
+            </div>
+            <div class="sts">
+                <button>
+                    <i class="fa-solid fa-code"></i><br>
+                    Login or Create Account
+                </button>
+            </div>
+            <div class="sts">
+                <button>
+                    <i class="fa-solid fa-flag"></i><br>
+                    <b>IN|ENG|INR</b>
+                </button>
+            </div>
+        </div>
+        
     </div>
-    <div class="sts">
-        <button>
-            <i class="fa-solid fa-bag-shopping"></i>
-            <b>Introducing myBiz</b> <br>
-            Business Travel Solution
-        </button>
-    </div>
-    <div class="sts">
-        <button>
-            <i class="fa-solid fa-person-walking-luggage"></i>
-            <b>My Trips</b> <br>
-            Manage Your Bookings
-        </button>
-    </div>
-    <div class="sts">
-        <button>
-            <i class="fa-solid fa-code"></i><br>
-            Login or Create Account
-        </button>
-    </div>
-    <div class="sts">
-        <button>
-            <i class="fa-solid fa-flag"></i><br>
-            <b>IN|ENG|INR</b>
-        </button>
-    </div>
+    
     <br>
     <br>
 
