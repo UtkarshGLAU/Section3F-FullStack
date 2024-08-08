@@ -1,0 +1,31 @@
+td,
+th{
+    border: 1px solid rgb(36, 36, 36);
+    padding: 10px;
+}
+
+table{
+    border: 1px solid rgb(36, 36, 36);
+}
+.Eng{
+    background-color: aqua;
+}
+.Maths{
+    background-color: aquamarine;
+}
+.E{
+    background-color: bisque;
+}
+.CO{
+    background-color: blue;
+}
+.l{
+    color: goldenrod;
+    background-color: aliceblue;
+}
+.CS{
+    background-color: rgb(107, 134, 157);
+}
+table{
+    background-color: blueviolet;
+}

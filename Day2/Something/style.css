@@ -1,0 +1,25 @@
+#img img{
+    width: 100px;
+}
+#img{
+    display: flex;
+    justify-content: center;
+}
+#Form{
+    display: flex;
+    justify-content: center;
+    padding-top: 100px;
+    width: 100%;
+}
+form{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 20%;
+}
+body{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 20px;
+}
