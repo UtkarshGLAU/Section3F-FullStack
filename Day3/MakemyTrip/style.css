@@ -1,11 +1,16 @@
-/* #page{
-    display: flex;
-} */
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+#page{
+    width: 100vw;
+}
 
 #heading {
   /* border-bottom: 1px solid black; */
   height: 9vh;
-  width: 100vw;
+  width: 100%;
 
 }
 
@@ -14,6 +19,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  width: 100%;
 }
 
 .nbor {
@@ -169,15 +175,19 @@ h6{
     width: 80vw;
     border: 1px solid black;
     border-radius: 12px;
-    padding: 10px;
+    padding: 70px;
     margin-top: 1px;
     display: flex;
-    justify-content: start;
+    justify-content: center;
+    align-items: center;
 }
 
 #mno .left{
     display: flex;
+    height: 100%;
 }
 #mno .left .top{
     display: flex;
 }
+
+
