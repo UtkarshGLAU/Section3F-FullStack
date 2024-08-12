@@ -1,0 +1,183 @@
+/* #page{
+    display: flex;
+} */
+
+#heading {
+  /* border-bottom: 1px solid black; */
+  height: 9vh;
+  width: 100vw;
+
+}
+
+#content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.nbor {
+  border: 0;
+  background-color: white;
+}
+
+.dropdown-menu li {
+  position: relative;
+}
+.dropdown-menu .dropdown-submenu {
+  display: none;
+  position: absolute;
+  bottom: 100%;
+  top: auto;
+  /* left: 100%;
+  top: -7px; */
+}
+
+.dropdown-menu > li:hover > .dropdown-submenu {
+  display: block;
+}
+
+.blue{
+    background-color: rgb(67, 67, 141);
+}
+
+
+
+.sts {
+    display: flex;
+}
+
+.sts button {
+    height: 3.5em;
+}
+
+img {
+    width: 3em;
+}
+
+.options {
+    display: inline;
+}
+
+#IMG {
+    display: flex;
+    align-items: center;
+}
+
+#heading {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#topt {
+    display: flex;
+    justify-content: space-between;
+    width: 60%
+}
+
+
+
+#t{
+    display: flex;
+    justify-content: space-between;
+    width: 60vw;
+    padding: 12px;
+    border: 1px solid black;
+    border-radius: 12px;
+    background-color: white;
+    z-index: 999;
+    position: absolute;
+    top: 7rem;
+}
+
+h6{
+    font-weight: normal;
+    font-size: 12px;
+}
+
+#flights{
+    /* position: absolute;
+    top:13rem; */
+    width: 80vw;
+    border: 1px solid black;
+    border-radius: 12px;
+    padding: 10px;
+    padding-top: 6rem;
+    margin-bottom: 6rem;
+    height: 44%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.top{
+    height: 8.5vh;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: last baseline;
+    margin: 0;
+}
+.top .toptions{
+    display: flex;
+    justify-content: space-around;
+    width: 33%;
+
+}
+
+.mid{
+    /* height: 13vh; */
+    padding: 10px;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    margin: 0;
+}
+.mid .moptions{
+    border: .5px solid rgb(111, 121, 130);
+    padding: 10px;
+    width: 100%;
+}
+
+
+
+.bot{
+    width: 100%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.bot .card{
+    padding: 5px;
+    margin: 5px;
+}
+
+
+.sp{
+    position: absolute;
+    top: 29em;
+    z-index: 999;
+    border-radius: 25px;
+    background-color: rgb(113, 113, 244);
+    color: aliceblue;
+}
+
+#mno{
+    width: 80vw;
+    border: 1px solid black;
+    border-radius: 12px;
+    padding: 10px;
+    margin-top: 1px;
+    display: flex;
+    justify-content: start;
+}
+
+#mno .left{
+    display: flex;
+}
+#mno .left .top{
+    display: flex;
+}
