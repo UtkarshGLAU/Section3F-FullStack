@@ -1,51 +1,82 @@
-body{
+body {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 80vh;
-    /* background-color: aqua; */
-
-}
-
-body > div{
-    border: 1px solid black;
-    padding: 10px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    /* align-items: center; */
-    background-color: aquamarine;
-    width: 20vw;
-    border-radius: 12px;
-}
-#o,#t{
-    border: 0;
+    height: 100vh;
     margin: 0;
-    background-color: teal;
+    font-family: Arial, sans-serif;
+    background-color: #b4c3cf;
+}
+
+.container {
+    background-color: #ddf5ff;
+    border: 5px solid #415656;
+    border-radius: 12px;
+    padding: 20px;
+    width: 300px;
     text-align: center;
 }
-.q{
-    background-color: teal;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    font-size: 30px;
-    padding: 2px;
-    border-radius: 25px;
 
+h1 {
+    color: #008080;
+    font-size: 33px;
 }
 
-#we,#he{
-    height: 2rem;
+.input-group {
+    margin-bottom: 19px;
+}
+
+.input-group label {
+    font-size: 16px;
+    color: #333;
+    margin-bottom: 5px;
+}
+
+.input-group input {
     width: 100%;
-    text-align: center;
-    border: 0;
-    background-color: aquamarine;
+    padding: 10px;
+    border: 2px solid #008080;
+    border-radius: 5px;
+    font-size: 16px;
+    box-sizing: border-box;
+    background-color: whitesmoke;
 }
-button{
+
+button {
+    background-color: #008080;
+    color: #ffffff;
+    padding: 10px 20px;
     border: 0;
-    background-color: aqua;
-    border-radius: 25px;
+    border-radius: 7px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: #006666;
+}
+
+
+
+.output-group {
+    background-color: #e0ffff;
+    border-radius: 6px;
+    padding: 10px;
+    border: 1px solid #006666;
+}
+
+.output-group input {
+    width: 80%;
+    padding: 10px;
+    border: none;
+    background-color: #e0ffff;
+    text-align: center;
+    font-size: 18px;
+    color: #333333;
+    margin-bottom: 10px;
+}
+
+#t {
+    margin-bottom: 0;
 }

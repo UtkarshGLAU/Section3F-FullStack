@@ -3,32 +3,32 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>BMI Calculator</title>
     <link rel="stylesheet" href="./style.css">
+    <script src="https://kit.fontawesome.com/a6f13b2d8c.js" crossorigin="anonymous"></script>
 </head>
 <body>
-    <div>
-        <h1>BMI</h1>
-        
-        <h2><i class="fa-solid fa-weight-scale"></i> Weight</h2>
-        <input type="number" name="value" id="we" placeholder="Weight in KG">
+    <div class="container">
+        <h1>BMI Calculator</h1>
         <br>
-        <h2><i class="fa-solid fa-ruler"></i> Height</h2>
-        <input type="number" name="value" id="he" placeholder="Height in CM">
+        <div class="input-group">
+            <label for="we"><i class="fa-solid fa-weight-scale"></i> Weight (kg)</label>
+            <input type="number" name="value" id="we" placeholder="Enter your weight">
+        </div>
+        <div class="input-group">
+            <label for="he"><i class="fa-solid fa-ruler"></i> Height (cm)</label>
+            <input type="number" name="value" id="he" placeholder="Enter your height">
+        </div>
+
+        <button onclick="ce()">Calculate</button>
         <br>
-        <button onclick="ce()"><h3>Calculate</h3></button>
         <br>
-        <hr>
-        <div class="q">
-            <input type="text" id="o" readonly>
-            <input type="text" id="t" readonly>
+
+        <div class="output-group">
+            <input type="text" id="o" readonly placeholder="Your BMI">
+            <input type="text" id="t" readonly placeholder="BMI Category">
         </div>
     </div>
-
-
-
-
-    <script src="https://kit.fontawesome.com/a6f13b2d8c.js" crossorigin="anonymous"></script>
     <script src="./app.js"></script>
 </body>
 </html>
