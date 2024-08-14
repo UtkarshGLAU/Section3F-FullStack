@@ -1,0 +1,54 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+#slider {
+  width: 30vw;
+  margin-bottom: 100px;
+}
+#VL {
+  /* width: 10vw; */
+  background-color: rgb(42, 42, 42);
+  color: aliceblue;
+  height: 1.5rem;
+  border: 7px;
+  text-align: center;
+  padding: 5px;
+  outline: 0;
+}
+/* label{
+    height: 4rem;
+    background-color: aliceblue;
+} */
+
+h3 {
+  background-color: rgb(42, 42, 42);
+  color: aliceblue;
+  height: 1.5rem;
+  padding: 5px;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: rgb(72, 72, 72);
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  padding: 100px;
+  border-radius: 20px;
+}
+
+.price {
+  display: flex;
+  align-items: center;
+  outline: auto;
+  padding: 0;
+  margin: 0;
+}

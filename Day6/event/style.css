@@ -1,0 +1,8 @@
+p{
+    display: none;
+    /* visibility: visible; */
+}
+button{
+    cursor: pointer;
+    display: inline;
+}
